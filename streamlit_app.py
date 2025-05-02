@@ -1,3 +1,6 @@
+import compatibility
+compatibility.enable_sqlite_compatibility()
+
 import streamlit as st
 import pandas as pd
 import os
